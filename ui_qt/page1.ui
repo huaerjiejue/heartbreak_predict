@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>333</width>
+    <height>583</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>80</y>
+      <width>101</width>
+      <height>371</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="sex">
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+    color: #333; /* 文本颜色 */
+    font-size: 18px; /* 字体大小 */
+}
+</string>
+       </property>
+       <property name="text">
+        <string>sex：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="age">
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+    color: #333; /* 文本颜色 */
+    font-size: 18px; /* 字体大小 */
+}
+</string>
+       </property>
+       <property name="text">
+        <string>age：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="cp">
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+    color: #333; /* 文本颜色 */
+    font-size: 18px; /* 字体大小 */
+}
+</string>
+       </property>
+       <property name="text">
+        <string>cp：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="trestbps">
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+    color: #333; /* 文本颜色 */
+    font-size: 18px; /* 字体大小 */
+}
+</string>
+       </property>
+       <property name="text">
+        <string>trestbps：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="chol">
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+    color: #333; /* 文本颜色 */
+    font-size: 18px; /* 字体大小 */
+}
+</string>
+       </property>
+       <property name="text">
+        <string>chol：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="fbs">
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+    color: #333; /* 文本颜色 */
+    font-size: 18px; /* 字体大小 */
+}
+</string>
+       </property>
+       <property name="text">
+        <string>fbs：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="restecg">
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+    color: #333; /* 文本颜色 */
+    font-size: 18px; /* 字体大小 */
+}
+</string>
+       </property>
+       <property name="text">
+        <string>restecg：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="thalach">
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+    color: #333; /* 文本颜色 */
+    font-size: 18px; /* 字体大小 */
+}
+</string>
+       </property>
+       <property name="text">
+        <string>thalach：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="exang">
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+    color: #333; /* 文本颜色 */
+    font-size: 18px; /* 字体大小 */
+}
+</string>
+       </property>
+       <property name="text">
+        <string>exang：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="oldpeak">
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+    color: #333; /* 文本颜色 */
+    font-size: 18px; /* 字体大小 */
+}
+</string>
+       </property>
+       <property name="text">
+        <string>oldpeak：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="slope">
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+    color: #333; /* 文本颜色 */
+    font-size: 18px; /* 字体大小 */
+}</string>
+       </property>
+       <property name="text">
+        <string>slope：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="ca">
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+    color: #333; /* 文本颜色 */
+    font-size: 18px; /* 字体大小 */
+}
+</string>
+       </property>
+       <property name="text">
+        <string>ca:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="thal">
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+    color: #333; /* 文本颜色 */
+    font-size: 18px; /* 字体大小 */
+}
+</string>
+       </property>
+       <property name="text">
+        <string>thal:</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>80</y>
+      <width>131</width>
+      <height>371</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QComboBox" name="sex_select">
+       <item>
+        <property name="text">
+         <string>男</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>女</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QSpinBox" name="age_select"/>
+     </item>
+     <item>
+      <widget class="QSpinBox" name="cp_select">
+       <property name="maximum">
+        <number>3</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QSpinBox" name="trestbps_select">
+       <property name="minimum">
+        <number>90</number>
+       </property>
+       <property name="maximum">
+        <number>200</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QSpinBox" name="chol_select">
+       <property name="minimum">
+        <number>100</number>
+       </property>
+       <property name="maximum">
+        <number>600</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="fbs_select">
+       <item>
+        <property name="text">
+         <string>高于120 mg/dL</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>低于120 mg/dL</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QSpinBox" name="restecg_select">
+       <property name="maximum">
+        <number>2</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QSpinBox" name="thalach_select">
+       <property name="minimum">
+        <number>70</number>
+       </property>
+       <property name="maximum">
+        <number>220</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="exang_select">
+       <item>
+        <property name="text">
+         <string>是</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>否</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDoubleSpinBox" name="lodpeak_select">
+       <property name="maximum">
+        <double>6.200000000000000</double>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="slope_select">
+       <item>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="ca_select">
+       <property name="maxVisibleItems">
+        <number>3</number>
+       </property>
+       <item>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>3</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="thal_select">
+       <property name="maxVisibleItems">
+        <number>3</number>
+       </property>
+       <item>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>3</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>30</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    color: #333; /* 文本颜色 */
+    font-size: 18px; /* 字体大小 */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>心脏病预测小程序</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>460</y>
+      <width>231</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="help">
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: #4CAF50; /* 背景颜色 */
+    border: none; /* 去掉边框 */
+    color: white; /* 文本颜色 */
+    padding: 10px 20px; /* 内边距 */
+    font-size: 16px; /* 字体大小 */
+}
+
+QPushButton:hover {
+    background-color: #45a049; /* 鼠标悬停时的背景颜色 */
+}
+</string>
+       </property>
+       <property name="text">
+        <string>帮助</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="button_next_page">
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: #4CAF50; /* 背景颜色 */
+    border: none; /* 去掉边框 */
+    color: white; /* 文本颜色 */
+    padding: 10px 20px; /* 内边距 */
+    font-size: 16px; /* 字体大小 */
+}
+
+QPushButton:hover {
+    background-color: #45a049; /* 鼠标悬停时的背景颜色 */
+}
+</string>
+       </property>
+       <property name="text">
+        <string>预测</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>333</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+ <slots>
+  <slot>show_help()</slot>
+  <slot>next_page()</slot>
+ </slots>
+</ui>
